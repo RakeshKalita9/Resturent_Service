@@ -29,7 +29,7 @@ public class ResturentDao {
     }
     public Boolean updateSpecialityInRepo(String Id,String speciality){
         for(Resturent ele : resturentList){
-            String VarId =Id;
+            String VarId =ele.Id;
             if(Id.equals(VarId)){
                 ele.Speciality = speciality;
                 return  true;
@@ -39,7 +39,7 @@ public class ResturentDao {
     }
     public Boolean deleteResturentFromRepo(String Id){
         for(Resturent ele : resturentList){
-            String VarId =Id;
+            String VarId = ele.Id;
             if(Id.equals(VarId)){
                return  resturentList.remove(ele);
             }
