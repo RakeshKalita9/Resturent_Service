@@ -8,7 +8,7 @@
 * ResturentController -> The ResturentController class handles all type of Api request. The end Points are  "/getAllResturent","/addResturent","/getSpecificResturent",
 "/updateSpeciality","/deleteResturent"
 ## Service
-* Model -> Inside this package there is a Model Class.We store different entities used in our proJect as class 
+* Model -> Inside the model Package, we store different entities used in our project as class.Here each entities can be described as Class
 * ResturentService -> The ResturentService class contains all type of Bussiness logic for this project 
 
 ## Repository
